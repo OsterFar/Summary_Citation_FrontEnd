@@ -1,0 +1,163 @@
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  position: relative;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid grey;
+  left: 300px;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  position: relative;
+  left: 30px;
+  width: 20%;
+  padding: 8px;
+  background: #2196F3;
+  color: white;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  position: relative;
+  background: #0b7dda;
+  left: 30px;
+}
+
+form.example::after {
+	
+	
+  content: "";
+  clear: both;
+  display: table;
+}
+#myTable {
+position: relative;
+  left: 300px;
+  width: 150px;
+  height: 200px;
+
+ 
+}
+
+.h {
+	position: relative;
+  left: 300px;
+	color: grey;
+	 font-size: 15px;
+
+}
+img {
+	position: relative;
+  top: 50px;
+  left: 200px;
+	opacity: 0.8;
+  border-radius: 50%;
+}
+
+
+.center {
+      
+      margin: 0 auto;
+      
+    }
+
+    .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+ 
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+	.scrollit {
+    overflow:  scroll;
+    height:400px;
+	width:500px;s
+}
+.A
+{
+	
+padding-left: 15cm;
+margin-bottom:5cm;
+margin-top: -370px;
+  
+}

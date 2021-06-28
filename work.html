@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<style>
+div.scroll
+{
+Width-5px;
+Height-10 px;
+Overflow-x:scroll;
+}
+</style>
+<script>
+
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+</head>
+
+<body>
+<div class='center'>
+
+  <p class="awesome">WELCOME!</p>
+
+</div>
+<div>
+<img src="1.jpg" alt="logo" style="width:90px">
+</div>
+
+
+<form class="example" action="/action_page.php">
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+  <div class="scrollit">
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">All topics</th>
+    <th style="width:40%;"></th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    
+  </tr>
+  <tr>
+    <td>Berglunds snabbkop</td>
+   
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+   
+  </tr>
+  <tr>
+    <td>Koniglich Essen</td>
+    
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+   
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+   
+  </tr>
+  <tr>
+    <td>North/South</td>
+   
+  </tr>
+  <tr>
+    <td>Paris specialites</td>
+   
+  </tr>
+</table>
+</div>
+<div class="A">
+  
+<p>
+  <span>
+    <h5>Cell Line Established</h5>
+  </span>
+  dvsvvdas
+  dataadda
+  dataaddaad
+  adadasdadad
+  dataaddaadda
+  dadadadadad
+  <br><br><br><br><br><br><h5>Described Previously</h5>
+  </p>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html> 
